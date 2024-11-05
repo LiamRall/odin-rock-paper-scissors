@@ -1,0 +1,43 @@
+#title h1{
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+#subtitle p{
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+#option-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    height: 4rem;
+    width: 4rem;
+}
+
+.option img{
+    height: 100%;
+    width: 100%;
+}
+
+#round-result{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+#score{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem;
+}

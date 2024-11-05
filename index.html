@@ -3,12 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Rock Paper Scissors</title>
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <script src="javascript.js">
-
-    </script>
-
+<div id="title">
+    <h1>Rock Paper Scissors</h1>
+</div>
+<div id="subtitle">
+    <p>Choose your weapon</p>
+</div>
+<div id="option-container">
+    <div class="option" id="rock" onclick="playRound('rock', getComputerChoice())">
+        <img src="img/rock.svg" alt="rock">
+    </div>
+    <div class="option" id="paper" onclick="playRound('paper', getComputerChoice())">
+        <img src="img/paper.svg" alt="paper">
+    </div>
+    <div class="option" id="scissors" onclick="playRound('scissors', getComputerChoice())">
+        <img src="img/scissors.svg" alt="scissors">
+    </div>
+</div>
+<div id="game-result">
+    <p id="score"></p>
+    <p id="round-result"></p>
+</div>
 </body>
 </html>
